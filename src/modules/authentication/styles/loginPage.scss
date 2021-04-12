@@ -1,0 +1,31 @@
+.login { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 600px;
+
+    .actions { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .btn {
+        width: 50%;
+
+        &.btn-link {
+          background-color: transparent;
+          color: #6CBEE1;
+        }
+      }
+    }
+  }
+}

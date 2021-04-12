@@ -1,0 +1,48 @@
+.list-profile { 
+  margin-top: 20px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .filter {
+    input {
+      width: 33%;
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
+    .btn {
+      float: right;
+      margin-left: 10px;
+    }
+  }
+
+  .table { 
+    .empty-table, .loading { 
+      text-align: center;
+    }
+
+    th.actions {
+      width: 300px;
+    }
+
+    td.actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      button {
+        width: 35px;
+        height: 35px;
+        margin: 0 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

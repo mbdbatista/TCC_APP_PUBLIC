@@ -1,0 +1,46 @@
+.update-fish-specie {
+  margin-top: 20px;
+
+  .size-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sizes {
+    width: 100%;
+    .size-line {
+      display: flex;
+      flex-wrap: wrap;
+
+      .actions {
+        display: flex;
+        flex-direction: row;
+        @media only screen and (max-width: 768px) {
+          margin: 0 15px 30px;
+        }
+
+        .remove {
+          margin-right: 5px;
+        }
+      }
+    }
+  }  
+
+  .custom-checkbox {
+    padding-top: 14px;
+    @media only screen and (max-width: 768px) {
+      margin: 0 15px 30px;
+    }
+  }
+
+  .actions {
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+    }
+    .btn {
+      float: right;
+    }
+  }
+}

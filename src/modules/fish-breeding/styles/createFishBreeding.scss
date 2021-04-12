@@ -1,0 +1,29 @@
+.create-fish-breeding {
+  margin-top: 20px;
+
+  .size-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sizes {
+    width: 100%;
+    .size-line {
+      display: flex;
+      flex-wrap: wrap;
+
+      .actions {
+        display: flex;
+        flex-direction: row;
+
+        .remove {
+          margin-right: 5px;
+        }
+      }
+    }
+  }  
+
+  .btn {
+    float: right;
+  }
+}

@@ -1,0 +1,28 @@
+.social-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100%;
+
+  .error-icon {
+    width: 60px;
+    height: 60px;
+    color: red;
+  }
+
+  .info-text { 
+    font-size: 24;
+    color: #777777;
+    text-align: center;
+
+    margin-top: 30px;
+  }
+
+  .error-link {
+    color: #6CBEE1;
+    font-size: 24;
+    font-weight: bold;
+  }
+}

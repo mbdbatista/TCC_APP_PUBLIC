@@ -1,0 +1,142 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+textarea:hover,
+input:hover,
+select:hover,
+select:active,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+select:focus,
+button:active,
+button:hover,
+label:focus,
+p:focus,
+div:focus,
+.btn:active,
+.btn.active {
+  outline: none;
+  box-shadow: none !important;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+h2.title {
+  font-size: 32px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 40px;
+  @media only screen and (max-width: 768px) {
+    font-size: 26px;
+  }
+}
+
+.btn { 
+  height:50px;  
+  border-radius: 5px;
+  padding: 0 20px;
+  
+  &.btn-light:hover,
+  &.btn-light:not(:disabled):not(.disabled):active,
+  &.btn-light:focus,
+  &.btn-light:hover,
+  &.btn-light {
+    border: 1px solid #343a40;
+  }
+}
+
+.card { 
+  border-color: #343a40;
+  .card-header {
+    background-color: #343a40;
+    color: white;
+  }
+}
+
+.home {
+
+  .navbar {
+    height: 100px;    
+    background-color: #343a40;
+    color: #fff;
+
+    .logo { 
+      height: 70px;
+    }
+
+    .nav-link {
+      color: #c3c3c3;
+      transition: color .3s ease-in;
+    }
+
+    .active > .nav-link,
+    .nav-link:hover {
+      color: #59cafc;
+    }
+
+    // Mobile
+    .navbar-toggler {
+      color: #c3c3c3;
+    }
+    .navbar-collapse  {
+      background-color: #343a40;
+      @media only screen and(max-width: 991px) {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100px;
+        padding: 0 30px 30px;
+        z-index: 10;        
+      }
+    }
+  }
+}
+
+select.form-control, select.form-control:focus {
+  width: 100%;
+  height: 50px;
+
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+
+  color: #777777;
+  background-color: #FBFBFB;
+}
+.select {
+  .error { 
+    border-color: #E06E6E !important;
+  }
+  .error-message { 
+    color: #E06E6E;
+  }
+}
+
+.align-text-vertical {
+  line-height: 50px;
+}
+
+.card {
+  border-radius: 4px;
+  background: transparent;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);    
+  padding: 18px;
+  border: none;
+  canvas {
+    margin: 0 !important;
+  }
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}

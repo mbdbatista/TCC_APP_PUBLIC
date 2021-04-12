@@ -1,0 +1,30 @@
+.authentication-routes { 
+  display: flex;
+  height: 100%;
+  @media only screen and (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+  .logo-content {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #343a40;
+    width: 50%;
+    cursor: pointer;
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
+    img {
+      @media only screen and (max-width: 768px) {
+        width: 60%;
+      }    
+    }
+  }
+  .content { 
+    width: 50%;
+    background-color: white;
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
